@@ -9,8 +9,9 @@ function palindrome(str){
         if(s.charAt(l) != s.charAt(r)) {
             return false;
         }
-        l++;
+        l++;     
         r--;
+        //////decreasing.......
     }
     return true;
 }
