@@ -2,8 +2,6 @@
 
 function palindrome(str){
 
-    s = s.replace(/[^0-9a-zA-Z]+/gmi,"");
-    s = s.toLowerCase();
     var l = 0, r = s.length - 1;
     console.log(s);
 
