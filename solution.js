@@ -2,11 +2,11 @@
 
 function palindrome(str){
 
-    var l = 0, r = s.length - 1;
-    console.log(s);
+    var l = 0, r = str.length - 1;
+    console.log(str);
 
     while(l<r) {
-        if(s.charAt(l) != s.charAt(r)) {
+        if(str.charAt(l) != str.charAt(r)) {
             return false;
         }
         l++;     
